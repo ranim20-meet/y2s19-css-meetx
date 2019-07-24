@@ -1,1 +1,51 @@
+body {
+	background-color: #a6c1ed;
+	color: white;
+	font-family: sans-serif;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+a {
+	color: black;
+	font-size: 50px;
+}
 
+.non-vegie {
+	color: green;
+}
+
+.vegie {
+	color: yellow;
+}
+
+#steak {
+	background-color: #bd8a53;
+}
+
+.sidebar {
+	background-color: #d3e3eb;
+	position: absolute;
+	top: 0px;
+
+	height: 100%;
+}
+
+.title {
+	height: 60px;
+	width: 100%;
+}
+
+.container {
+	height: 100%;
+	
+	box-sizing: border-box;
+	position: relative;
+}
+	
+.content {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
